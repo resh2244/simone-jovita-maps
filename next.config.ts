@@ -1,11 +1,3 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  output: "export",
-  images: {
-    unoptimized: true,
-  },
-  swcMinify: true,
-};
-
-export default nextConfig;
+it mv next.config.ts next.config.mjs
+git commit -m "Rename next.config.ts to next.config.mjs"
+git push origin main
