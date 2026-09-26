@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "simone-jovita-main-location",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.083,
+          37.5079
+        ]
+      },
+      "properties": {
+        "asset_id": "simone-jovita-main-location",
+        "name": "Simone & Jovita Maps Main Location",
+        "address": {
+          "lines": [
+            "Via Sant'Anna 8"
+          ],
+          "city": "Catania",
+          "region": "Sicily",
+          "zipcode": "95124",
+          "country_code": "IT"
+        },
+        "geofencing_radius_m": 100,
+        "types": [
+          "app_location"
+        ],
+        "tags": [
+          "simone_jovita",
+          "maps",
+          "featured",
+          "location"
+        ],
+        "user_properties": {
+          "app_name": "Simone & Jovita Maps",
+          "status": "active",
+          "source": "app",
+          "map_provider": "google_maps"
+        }
+      }
+    }
+  ]
+}
