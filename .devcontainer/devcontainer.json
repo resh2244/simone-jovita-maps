@@ -1,0 +1,21 @@
+// Use 'forwardPorts' to make a list of ports inside the container available locally.
+"forwardPorts": [3000, 3333, 4444, 5555],
+
+"portsAttributes": {
+  "3000": {
+    "label": "next-dev-server",
+    "onAutoForward": "notify"
+  },
+  "3333": {
+    "label": "app-standard-preview",
+    "onAutoForward": "notify"
+  },
+  "4444": {
+    "label": "app-pro-preview",
+    "onAutoForward": "notify"
+  },
+  "5555": {
+    "label": "automation-port",
+    "onAutoForward": "openBrowser"
+  }
+}
